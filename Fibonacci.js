@@ -5,8 +5,8 @@ function fibonacci() {
     let b = 1
     for(let i = 0; i < 10; i++) {
         
+        array.push(a)
         let next = a + b
-        array.push(next)
 
         a = b
         b = next
